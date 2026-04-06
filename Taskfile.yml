@@ -40,7 +40,7 @@ tasks:
     cmds:
       - |
         docker exec -it postgres \
-        bash -c "gunzip -c '/tmp/postgres/data/{{.BOOKING_FILENAME}}' | psql -U '{{.POSTGRES_USER}}'"
+        bash -c "gunzip -c '/var/lib/postgresql/{{.BOOKING_FILENAME}}' | psql -U '{{.POSTGRES_USER}}'"
 
   conn-psql:
     desc: Подключается к базе через psql
