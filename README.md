@@ -27,6 +27,7 @@
 
 ## Дополнительная информация
 
+* [Демобаза](https://postgrespro.ru/education/demodb)
 * [bookings, статья на хабре](https://habr.com/ru/companies/postgrespro/articles/956096/)
 * [PostgreSQL. Профессиональный SQL](https://postgrespro.ru/education/books/advancedsql)
 * [Запросы в PostgreSQL. Профессиональный SQL](https://pubgit.postgrespro.ru/pub/advancedsql/)
